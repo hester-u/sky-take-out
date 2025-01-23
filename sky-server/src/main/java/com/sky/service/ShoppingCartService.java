@@ -11,4 +11,8 @@ public interface ShoppingCartService {
      * @param shoppingCartDTO
      */
     void addShoppingCart(ShoppingCartDTO shoppingCartDTO);
+
+    List<ShoppingCart> showShoppingCart();
+
+    void cleanShoppingCart();
 }
